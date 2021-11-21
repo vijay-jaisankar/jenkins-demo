@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 import unittest
 from compute_average import compute_average_function
 
