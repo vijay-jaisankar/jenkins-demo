@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 # Simple function to compute the average of a list of numbers.
 
 def compute_average_function(l):
