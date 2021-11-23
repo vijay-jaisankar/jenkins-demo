@@ -16,7 +16,7 @@ class TestAverage(unittest.TestCase):
         self.assertEqual(compute_average_function([]),0.0)
     
     def testOnlyPositive(self):
-        self.assertEqual(compute_average_function([1,2,3]),24.0)
+        self.assertEqual(compute_average_function([1,2,3]),2.0)
 
     def testOnlyNegative(self):
         self.assertEqual(compute_average_function([-1,-2,-3]),-2.0)
